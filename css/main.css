@@ -22,6 +22,7 @@
   body .yes-accept h1 {
     margin-left: 100px;
     margin-top: 10px;
+    border-radius: 20px;
     color: white;
     margin-bottom: 5000px;
   
@@ -106,6 +107,10 @@
   .show {
     visibility: visible !important;
   }
+
+  .hidden {
+    visibility: hidden !important;
+  }
   
   .fundo {
     position: absolute;
@@ -118,7 +123,7 @@
     position: fixed;
     align-self: center;
     opacity: 1;
-    margin-left: 800px;
+    margin-left: 1000px;
     height: 300px;
     z-index: 99;
   }
