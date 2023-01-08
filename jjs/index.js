@@ -52,9 +52,11 @@ function aceita(){
     no03.classList.remove("show");
     no04.classList.remove("show");
     no05.classList.remove("show");
+    yes.classList.add("hidden");
 
     accept.classList.add("show");
 }
+
 
 
 // LUCIFER PASSOU POR AQUI
