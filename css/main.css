@@ -45,7 +45,7 @@
     justify-content: center;
     margin-top: 350px;
     margin-left: 80px;
-    position: fixed;
+    position: absolute;
     opacity: 0.75;
     visibility: hidden;
   }
@@ -147,7 +147,8 @@
     position: fixed;
     align-self: center;
     opacity: 1;
-    margin-left: 900px;
+    margin-left: 850px;
+    margin-top: 40px;
     height: 300px;
     z-index: 99;
   }
