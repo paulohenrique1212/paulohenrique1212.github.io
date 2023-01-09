@@ -17,6 +17,9 @@
     position: fixed;
     transition: 0.25s ease-in;
   }
+  
+  
+
 
 
   body .yes-accept h1 {
@@ -35,6 +38,19 @@
   :root {
     font-size: 62.5%;
   }
+
+  body .anime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+    margin-left: 150px;
+    position: fixed;
+    opacity: 0.75;
+    visibility: hidden;
+  }
+
+
   
   html {
     font-size: 1.6rem;
@@ -107,9 +123,12 @@
   .show {
     visibility: visible !important;
   }
+  .flex {
+    display: flex;
+  }
 
   .hidden {
-    visibility: hidden !important;
+    display: none;
   }
   
   .fundo {
@@ -118,12 +137,17 @@
     height: 100vh;
     background-color: rgba(10, 10, 10, 0.925);
   }
+
+  div .anime {
+    align-items: center;
+
+  }
   
   img {
     position: fixed;
     align-self: center;
     opacity: 1;
-    margin-left: 1000px;
+    margin-left: 900px;
     height: 300px;
     z-index: 99;
   }
